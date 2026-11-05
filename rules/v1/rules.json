@@ -1,0 +1,81 @@
+{
+  "schema": 1,
+  "version": 1,
+  "published": "2026-11-05",
+  "rules": [
+    {
+      "id": "jee_main_2026_photo",
+      "status": "historic",
+      "cycle": "2026",
+      "document": "photo",
+      "title": "JEE Main 2026 — upload photo",
+      "source_title": "National Testing Agency: JEE (Main) 2026 Information Bulletin",
+      "source_url": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/11/202511021649722475.pdf",
+      "excerpts": [
+        {
+          "where": "Page 10",
+          "text": "The recent passport size photograph should be in colour with 80% face (without mask) visible including ears against white background. Photograph in JPG/JPEG format (clearly legible) between 10 kb to 200 kb."
+        }
+      ],
+      "requirement": {
+        "label": "jee_main_2026_photo",
+        "kb_min": 10,
+        "kb_max": 200,
+        "width": null,
+        "height": null,
+        "aspect": null,
+        "format": "jpeg"
+      },
+      "derived": {},
+      "unresolved": {
+        "width": "The bulletin gives no pixel width.",
+        "height": "The bulletin gives no pixel height.",
+        "aspect": "The bulletin gives no shape."
+      },
+      "notes": [
+        "This exam also takes a live photo on its portal. This app cannot do that step."
+      ]
+    },
+    {
+      "id": "ssc_cgl_2026_signature",
+      "status": "historic",
+      "cycle": "2026",
+      "document": "signature",
+      "title": "SSC CGL 2026 — signature",
+      "source_title": "Staff Selection Commission: Notice, Combined Graduate Level Examination, 2026 (dated 21-05-2026)",
+      "source_url": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_cgl_2025.pdf",
+      "excerpts": [
+        {
+          "where": "Page 18, para 9.6 (same text on page 52)",
+          "text": "Candidates are required to upload the scanned signature in JPEG/JPG format (10 to 20 KB). Image dimension of the signature should be about 6.0 cm (width) x 2.0 cm (height)."
+        },
+        {
+          "where": "Page 71, Annexure-IV",
+          "text": "The scanned signature in JPEG/JPG format (10 to 20 KB). The image dimension of signature should be about 4.0 cm (Width) x 2.0 cm (Height)."
+        }
+      ],
+      "requirement": {
+        "label": "ssc_cgl_2026_signature",
+        "kb_min": 10,
+        "kb_max": 20,
+        "width": null,
+        "height": null,
+        "aspect": {
+          "w": 3,
+          "h": 1
+        },
+        "format": "jpeg"
+      },
+      "derived": {
+        "aspect": "3:1 is derived from \"about 6.0 cm (width) x 2.0 cm (height)\" in para 9.6. The same notice's Annexure-IV says \"about 4.0 cm (Width) x 2.0 cm (Height)\" (2:1). The notice does not settle which is right."
+      },
+      "unresolved": {
+        "width": "The notice gives centimetres only, with no DPI, so there is no pixel width to check.",
+        "height": "The notice gives centimetres only, with no DPI, so there is no pixel height to check."
+      },
+      "notes": [
+        "The photograph for this exam is captured live on its portal. This app cannot do that step."
+      ]
+    }
+  ]
+}
