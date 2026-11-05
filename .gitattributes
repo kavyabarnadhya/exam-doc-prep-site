@@ -1,0 +1,2 @@
+rules/** -text
+* text=auto eol=lf
