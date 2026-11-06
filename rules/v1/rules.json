@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "version": 2,
+  "version": 3,
   "published": "2026-11-06",
   "rules": [
     {
@@ -29,8 +29,8 @@
       },
       "derived": {},
       "unresolved": {
-        "width": "The notice gives no pixel width.",
-        "height": "The notice gives no pixel height.",
+        "width": "The notice gives no pixel size.",
+        "height": "The notice gives no pixel size.",
         "aspect": "The notice gives no shape."
       },
       "notes": [
@@ -63,8 +63,8 @@
       },
       "derived": {},
       "unresolved": {
-        "width": "The notice gives no pixel width.",
-        "height": "The notice gives no pixel height.",
+        "width": "The notice gives no pixel size.",
+        "height": "The notice gives no pixel size.",
         "aspect": "The notice gives no shape."
       },
       "notes": [
@@ -97,8 +97,8 @@
       },
       "derived": {},
       "unresolved": {
-        "width": "The notice gives no pixel width.",
-        "height": "The notice gives no pixel height.",
+        "width": "The notice gives no pixel size.",
+        "height": "The notice gives no pixel size.",
         "aspect": "The notice gives no shape."
       },
       "notes": []
@@ -209,7 +209,7 @@
       "cycle": "2026",
       "document": "declaration",
       "title": "IBPS Clerk XVI — hand-written declaration",
-      "source_title": "IBPS: Notification, CRP-CSA-XVI (posted 01 Aug 2026)",
+      "source_title": "IBPS: Notification, CRP-CSA-XVI",
       "source_url": "https://www.ibps.in/wp-content/uploads/Notification_CRP_CSA_XVI-Final.pdf",
       "notice_date": "2026-08-01",
       "excerpts": [
@@ -246,7 +246,7 @@
       "cycle": "2026",
       "document": "photo",
       "title": "IBPS Clerk XVI — photo",
-      "source_title": "IBPS: Notification, CRP-CSA-XVI (posted 01 Aug 2026)",
+      "source_title": "IBPS: Notification, CRP-CSA-XVI",
       "source_url": "https://www.ibps.in/wp-content/uploads/Notification_CRP_CSA_XVI-Final.pdf",
       "notice_date": "2026-08-01",
       "excerpts": [
@@ -283,7 +283,7 @@
       "cycle": "2026",
       "document": "signature",
       "title": "IBPS Clerk XVI — signature",
-      "source_title": "IBPS: Notification, CRP-CSA-XVI (posted 01 Aug 2026)",
+      "source_title": "IBPS: Notification, CRP-CSA-XVI",
       "source_url": "https://www.ibps.in/wp-content/uploads/Notification_CRP_CSA_XVI-Final.pdf",
       "notice_date": "2026-08-01",
       "excerpts": [
@@ -320,7 +320,7 @@
       "cycle": "2026",
       "document": "thumb",
       "title": "IBPS Clerk XVI — left thumb impression",
-      "source_title": "IBPS: Notification, CRP-CSA-XVI (posted 01 Aug 2026)",
+      "source_title": "IBPS: Notification, CRP-CSA-XVI",
       "source_url": "https://www.ibps.in/wp-content/uploads/Notification_CRP_CSA_XVI-Final.pdf",
       "notice_date": "2026-08-01",
       "excerpts": [
@@ -357,7 +357,7 @@
       "cycle": "2026",
       "document": "declaration",
       "title": "IBPS PO XVI — hand-written declaration",
-      "source_title": "IBPS: Detailed Notification, CRP-PO/MTs-XVI (30.06.2026)",
+      "source_title": "IBPS: Detailed Notification, CRP-PO/MTs-XVI",
       "source_url": "https://www.ibps.in/wp-content/uploads/Detailed-Notification_CRP-PO-XVI_Final_V1_30.06.2026.pdf",
       "notice_date": "2026-06-30",
       "excerpts": [
@@ -394,7 +394,7 @@
       "cycle": "2026",
       "document": "photo",
       "title": "IBPS PO XVI — photo",
-      "source_title": "IBPS: Detailed Notification, CRP-PO/MTs-XVI (30.06.2026)",
+      "source_title": "IBPS: Detailed Notification, CRP-PO/MTs-XVI",
       "source_url": "https://www.ibps.in/wp-content/uploads/Detailed-Notification_CRP-PO-XVI_Final_V1_30.06.2026.pdf",
       "notice_date": "2026-06-30",
       "excerpts": [
@@ -431,7 +431,7 @@
       "cycle": "2026",
       "document": "signature",
       "title": "IBPS PO XVI — signature",
-      "source_title": "IBPS: Detailed Notification, CRP-PO/MTs-XVI (30.06.2026)",
+      "source_title": "IBPS: Detailed Notification, CRP-PO/MTs-XVI",
       "source_url": "https://www.ibps.in/wp-content/uploads/Detailed-Notification_CRP-PO-XVI_Final_V1_30.06.2026.pdf",
       "notice_date": "2026-06-30",
       "excerpts": [
@@ -468,7 +468,7 @@
       "cycle": "2026",
       "document": "thumb",
       "title": "IBPS PO XVI — left thumb impression",
-      "source_title": "IBPS: Detailed Notification, CRP-PO/MTs-XVI (30.06.2026)",
+      "source_title": "IBPS: Detailed Notification, CRP-PO/MTs-XVI",
       "source_url": "https://www.ibps.in/wp-content/uploads/Detailed-Notification_CRP-PO-XVI_Final_V1_30.06.2026.pdf",
       "notice_date": "2026-06-30",
       "excerpts": [
@@ -562,8 +562,8 @@
       },
       "derived": {},
       "unresolved": {
-        "width": "The notice gives no pixel width.",
-        "height": "The notice gives no pixel height.",
+        "width": "The notice gives no pixel size.",
+        "height": "The notice gives no pixel size.",
         "aspect": "The notice gives no shape."
       },
       "notes": [
@@ -596,8 +596,8 @@
       },
       "derived": {},
       "unresolved": {
-        "width": "The notice gives no pixel width.",
-        "height": "The notice gives no pixel height.",
+        "width": "The notice gives no pixel size.",
+        "height": "The notice gives no pixel size.",
         "aspect": "The notice gives no shape."
       },
       "notes": []
@@ -608,7 +608,7 @@
       "cycle": "2026",
       "document": "fingers_thumb",
       "title": "NEET UG 2026 — fingers and thumb impressions",
-      "source_title": "National Testing Agency: NEET (UG) 2026 Information Bulletin (revised copy of 23 Feb 2026)",
+      "source_title": "National Testing Agency: NEET (UG) 2026 Information Bulletin (revised copy)",
       "source_url": "https://cdnbbsr.s3waas.gov.in/s37bc1ec1d9c3426357e69acd5bf320061/uploads/2026/02/202602231394640855.pdf",
       "notice_date": "2026-02-23",
       "excerpts": [
@@ -636,8 +636,8 @@
         "kb_max": "50–200 kb is the overlap of the notice's two ranges, so the file fits both."
       },
       "unresolved": {
-        "width": "The notice gives no pixel width.",
-        "height": "The notice gives no pixel height.",
+        "width": "The notice gives no pixel size.",
+        "height": "The notice gives no pixel size.",
         "aspect": "The notice gives no shape."
       },
       "notes": [
@@ -650,7 +650,7 @@
       "cycle": "2026",
       "document": "id_proof",
       "title": "NEET UG 2026 — identity proof",
-      "source_title": "National Testing Agency: NEET (UG) 2026 Information Bulletin (revised copy of 23 Feb 2026)",
+      "source_title": "National Testing Agency: NEET (UG) 2026 Information Bulletin (revised copy)",
       "source_url": "https://cdnbbsr.s3waas.gov.in/s37bc1ec1d9c3426357e69acd5bf320061/uploads/2026/02/202602231394640855.pdf",
       "notice_date": "2026-02-23",
       "excerpts": [
@@ -678,8 +678,8 @@
         "kb_max": "50–200 kb is the overlap of the notice's two ranges, so the file fits both."
       },
       "unresolved": {
-        "width": "The notice gives no pixel width.",
-        "height": "The notice gives no pixel height.",
+        "width": "The notice gives no pixel size.",
+        "height": "The notice gives no pixel size.",
         "aspect": "The notice gives no shape."
       },
       "notes": [
@@ -693,7 +693,7 @@
       "cycle": "2026",
       "document": "photo",
       "title": "NEET UG 2026 — photo",
-      "source_title": "National Testing Agency: NEET (UG) 2026 Information Bulletin (revised copy of 23 Feb 2026)",
+      "source_title": "National Testing Agency: NEET (UG) 2026 Information Bulletin (revised copy)",
       "source_url": "https://cdnbbsr.s3waas.gov.in/s37bc1ec1d9c3426357e69acd5bf320061/uploads/2026/02/202602231394640855.pdf",
       "notice_date": "2026-02-23",
       "excerpts": [
@@ -713,8 +713,8 @@
       },
       "derived": {},
       "unresolved": {
-        "width": "The notice gives no pixel width.",
-        "height": "The notice gives no pixel height.",
+        "width": "The notice gives no pixel size.",
+        "height": "The notice gives no pixel size.",
         "aspect": "The notice gives no shape."
       },
       "notes": [
@@ -727,7 +727,7 @@
       "cycle": "2026",
       "document": "signature",
       "title": "NEET UG 2026 — signature",
-      "source_title": "National Testing Agency: NEET (UG) 2026 Information Bulletin (revised copy of 23 Feb 2026)",
+      "source_title": "National Testing Agency: NEET (UG) 2026 Information Bulletin (revised copy)",
       "source_url": "https://cdnbbsr.s3waas.gov.in/s37bc1ec1d9c3426357e69acd5bf320061/uploads/2026/02/202602231394640855.pdf",
       "notice_date": "2026-02-23",
       "excerpts": [
@@ -747,8 +747,8 @@
       },
       "derived": {},
       "unresolved": {
-        "width": "The notice gives no pixel width.",
-        "height": "The notice gives no pixel height.",
+        "width": "The notice gives no pixel size.",
+        "height": "The notice gives no pixel size.",
         "aspect": "The notice gives no shape."
       },
       "notes": []
@@ -847,7 +847,7 @@
       "cycle": "2026",
       "document": "signature",
       "title": "SSC CGL 2026 — signature",
-      "source_title": "Staff Selection Commission: Notice, Combined Graduate Level Examination, 2026 (dated 21-05-2026)",
+      "source_title": "Staff Selection Commission: Notice, Combined Graduate Level Examination, 2026",
       "source_url": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_cgl_2025.pdf",
       "notice_date": "2026-05-21",
       "excerpts": [
@@ -876,8 +876,8 @@
         "aspect": "3:1 is derived from \"about 6.0 cm (width) x 2.0 cm (height)\" in para 9.6. The same notice's annexure says \"about 4.0 cm (width) x 2.0 cm (height)\" (2:1). The notice does not settle which is right."
       },
       "unresolved": {
-        "width": "The notice gives centimetres only, with no DPI, so there is no pixel width to check.",
-        "height": "The notice gives centimetres only, with no DPI, so there is no pixel height to check."
+        "width": "The notice gives centimetres only, with no DPI, so there is no pixel size to check.",
+        "height": "The notice gives centimetres only, with no DPI, so there is no pixel size to check."
       },
       "notes": [
         "The photograph for this exam is captured live on its portal. This app cannot do that step."
@@ -889,7 +889,7 @@
       "cycle": "2026",
       "document": "signature",
       "title": "SSC CHSL 2026 — signature",
-      "source_title": "Staff Selection Commission: Notice of Combined Higher Secondary (10+2) Level Examination, 2026 (07-09-2026)",
+      "source_title": "Staff Selection Commission: Notice of Combined Higher Secondary (10+2) Level Examination, 2026",
       "source_url": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_chsle_2026.pdf",
       "notice_date": "2026-09-07",
       "excerpts": [
@@ -918,8 +918,8 @@
         "aspect": "3:1 is derived from \"about 6.0 cm (width) x 2.0 cm (height)\" in para 9.6. The same notice's annexure says \"about 4.0 cm (width) x 2.0 cm (height)\" (2:1). The notice does not settle which is right."
       },
       "unresolved": {
-        "width": "The notice gives centimetres only, with no DPI, so there is no pixel width to check.",
-        "height": "The notice gives centimetres only, with no DPI, so there is no pixel height to check."
+        "width": "The notice gives centimetres only, with no DPI, so there is no pixel size to check.",
+        "height": "The notice gives centimetres only, with no DPI, so there is no pixel size to check."
       },
       "notes": [
         "The photograph for this exam is captured live on its portal. This app cannot do that step."
@@ -931,7 +931,7 @@
       "cycle": "2026",
       "document": "photo",
       "title": "UPSC CSE 2026 — photo",
-      "source_title": "UPSC: Civil Services Examination 2026 notice (04.02.2026); sizes from Vision IAS and Vajiram & Ravi",
+      "source_title": "UPSC: Civil Services Examination 2026 notice; sizes from Vision IAS and Vajiram & Ravi",
       "source_url": "https://www.upsc.gov.in/sites/default/files/Notif-CSP-2026-Engl-060226Rev.pdf",
       "notice_date": "2026-02-04",
       "excerpts": [
@@ -959,8 +959,8 @@
       },
       "derived": {},
       "unresolved": {
-        "width": "Neither website gives a pixel width.",
-        "height": "Neither website gives a pixel height.",
+        "width": "Neither website gives a pixel size.",
+        "height": "Neither website gives a pixel size.",
         "aspect": "Neither website gives a shape."
       },
       "notes": [
@@ -978,7 +978,7 @@
       "cycle": "2026",
       "document": "signature",
       "title": "UPSC CSE 2026 — signature (three times)",
-      "source_title": "UPSC: Civil Services Examination 2026 notice (04.02.2026); sizes from Vision IAS and Vajiram & Ravi",
+      "source_title": "UPSC: Civil Services Examination 2026 notice; sizes from Vision IAS and Vajiram & Ravi",
       "source_url": "https://www.upsc.gov.in/sites/default/files/Notif-CSP-2026-Engl-060226Rev.pdf",
       "notice_date": "2026-02-04",
       "excerpts": [
@@ -1006,8 +1006,8 @@
       },
       "derived": {},
       "unresolved": {
-        "width": "\"350–500 pixels\" does not say which side, so width is not checked.",
-        "height": "\"350–500 pixels\" does not say which side, so height is not checked.",
+        "width": "\"350–500 pixels\" does not say which side, so pixels are not checked.",
+        "height": "\"350–500 pixels\" does not say which side, so pixels are not checked.",
         "aspect": "Neither website gives a shape."
       },
       "notes": [
