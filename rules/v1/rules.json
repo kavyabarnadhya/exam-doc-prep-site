@@ -1,8 +1,504 @@
 {
   "schema": 1,
-  "version": 1,
-  "published": "2026-11-05",
+  "version": 2,
+  "published": "2026-11-06",
   "rules": [
+    {
+      "id": "cuet_ug_2026_id_proof",
+      "status": "current",
+      "cycle": "2026",
+      "document": "id_proof",
+      "title": "CUET UG 2026 — identity proof",
+      "source_title": "National Testing Agency: CUET (UG) 2026 Information Bulletin",
+      "source_url": "https://cdnbbsr.s3waas.gov.in/s3d1a21da7bca4abff8b0b61b87597de73/uploads/2026/01/202601031633478370.pdf",
+      "notice_date": "2026-01-03",
+      "excerpts": [
+        {
+          "where": "PDF page 10",
+          "text": "Scanned copy of Identity Proof (for those candidates who will [...] through methods other than Aadhaar or DigiLocker) should be in format JPG/JPEG between 10 kb to 200 kb (clearly legible)."
+        }
+      ],
+      "requirement": {
+        "label": "cuet_ug_2026_id_proof",
+        "kb_min": 10,
+        "kb_max": 200,
+        "width": null,
+        "height": null,
+        "aspect": null,
+        "format": "jpeg"
+      },
+      "derived": {},
+      "unresolved": {
+        "width": "The notice gives no pixel width.",
+        "height": "The notice gives no pixel height.",
+        "aspect": "The notice gives no shape."
+      },
+      "notes": [
+        "Needed only if you do not use Aadhaar or DigiLocker for identity."
+      ]
+    },
+    {
+      "id": "cuet_ug_2026_photo",
+      "status": "current",
+      "cycle": "2026",
+      "document": "photo",
+      "title": "CUET UG 2026 — photo",
+      "source_title": "National Testing Agency: CUET (UG) 2026 Information Bulletin",
+      "source_url": "https://cdnbbsr.s3waas.gov.in/s3d1a21da7bca4abff8b0b61b87597de73/uploads/2026/01/202601031633478370.pdf",
+      "notice_date": "2026-01-03",
+      "excerpts": [
+        {
+          "where": "PDF page 10",
+          "text": "Size of the photograph should be between 10 kb to 200 kb and in JPG/JPEG format (clearly legible)."
+        }
+      ],
+      "requirement": {
+        "label": "cuet_ug_2026_photo",
+        "kb_min": 10,
+        "kb_max": 200,
+        "width": null,
+        "height": null,
+        "aspect": null,
+        "format": "jpeg"
+      },
+      "derived": {},
+      "unresolved": {
+        "width": "The notice gives no pixel width.",
+        "height": "The notice gives no pixel height.",
+        "aspect": "The notice gives no shape."
+      },
+      "notes": [
+        "This exam also takes a live photo on its portal. This app cannot do that step."
+      ]
+    },
+    {
+      "id": "cuet_ug_2026_signature",
+      "status": "current",
+      "cycle": "2026",
+      "document": "signature",
+      "title": "CUET UG 2026 — signature",
+      "source_title": "National Testing Agency: CUET (UG) 2026 Information Bulletin",
+      "source_url": "https://cdnbbsr.s3waas.gov.in/s3d1a21da7bca4abff8b0b61b87597de73/uploads/2026/01/202601031633478370.pdf",
+      "notice_date": "2026-01-03",
+      "excerpts": [
+        {
+          "where": "PDF page 10",
+          "text": "Signature file should be JPG/JPEG format (clearly legible) between 10 kb to 50 kb."
+        }
+      ],
+      "requirement": {
+        "label": "cuet_ug_2026_signature",
+        "kb_min": 10,
+        "kb_max": 50,
+        "width": null,
+        "height": null,
+        "aspect": null,
+        "format": "jpeg"
+      },
+      "derived": {},
+      "unresolved": {
+        "width": "The notice gives no pixel width.",
+        "height": "The notice gives no pixel height.",
+        "aspect": "The notice gives no shape."
+      },
+      "notes": []
+    },
+    {
+      "id": "gate_2027_photo",
+      "status": "current",
+      "cycle": "2027",
+      "document": "photo",
+      "title": "GATE 2027 — photo",
+      "source_title": "GATE 2027 (IIT Madras): Photograph and Signature page",
+      "source_url": "https://gate2027.iitm.ac.in/photograph_and_signature",
+      "notice_date": "2026-09-02",
+      "excerpts": [
+        {
+          "where": "Web page",
+          "text": "Upload a good quality, color photograph of passport size (3.5 cm width × 4.5 cm height) with the face of the candidate covering 60-70% of the photograph."
+        },
+        {
+          "where": "Web page",
+          "text": "Photograph can be in JPEG/JPG format with minimum aspect ratio of 0.66 and maximum aspect ratio of 0.89."
+        },
+        {
+          "where": "Web page",
+          "text": "The maximum pixel resolution is 530 x 690 pixels and the minimum resolution is 200 x 260 pixels. The file size must be minimum of 5 kB and a maximum of 600 kB."
+        }
+      ],
+      "requirement": {
+        "label": "gate_2027_photo",
+        "kb_min": 5,
+        "kb_max": 600,
+        "width": {
+          "min": 200,
+          "max": 530
+        },
+        "height": {
+          "min": 260,
+          "max": 690
+        },
+        "aspect": {
+          "w": 7,
+          "h": 9
+        },
+        "format": "jpeg"
+      },
+      "derived": {
+        "aspect": "7:9 is derived from 3.5 cm × 4.5 cm (0.78), inside the allowed 0.66 to 0.89. The app checks one shape, not a range."
+      },
+      "unresolved": {},
+      "notes": [
+        "The page has no date; 2 Sep 2026 is when GATE 2027 applications opened.",
+        "This exam also takes a live photo on its portal. This app cannot do that step."
+      ]
+    },
+    {
+      "id": "gate_2027_signature",
+      "status": "current",
+      "cycle": "2027",
+      "document": "signature",
+      "title": "GATE 2027 — signature",
+      "source_title": "GATE 2027 (IIT Madras): Photograph and Signature page",
+      "source_url": "https://gate2027.iitm.ac.in/photograph_and_signature",
+      "notice_date": "2026-09-02",
+      "excerpts": [
+        {
+          "where": "Web page",
+          "text": "an aspect ratio (height: width) of 1 : R, where the value of R can be between 2.75 and 3.75."
+        },
+        {
+          "where": "Web page",
+          "text": "The file size must be a minimum of 3 kB and maximum of 300 kB."
+        },
+        {
+          "where": "Web page",
+          "text": "The maximum pixel resolution is 580 × 180 pixels and the minimum resolution is 250 × 80 pixels."
+        }
+      ],
+      "requirement": {
+        "label": "gate_2027_signature",
+        "kb_min": 3,
+        "kb_max": 300,
+        "width": {
+          "min": 250,
+          "max": 580
+        },
+        "height": {
+          "min": 80,
+          "max": 180
+        },
+        "aspect": {
+          "w": 13,
+          "h": 4
+        },
+        "format": "jpeg"
+      },
+      "derived": {
+        "aspect": "13:4 (R = 3.25) is the middle of the allowed 2.75 to 3.75. The app checks one shape, not a range."
+      },
+      "unresolved": {},
+      "notes": [
+        "The page has no date; 2 Sep 2026 is when GATE 2027 applications opened.",
+        "Sign in black or dark blue ink."
+      ]
+    },
+    {
+      "id": "ibps_clerk_xvi_declaration",
+      "status": "current",
+      "cycle": "2026",
+      "document": "declaration",
+      "title": "IBPS Clerk XVI — hand-written declaration",
+      "source_title": "IBPS: Notification, CRP-CSA-XVI (posted 01 Aug 2026)",
+      "source_url": "https://www.ibps.in/wp-content/uploads/Notification_CRP_CSA_XVI-Final.pdf",
+      "notice_date": "2026-08-01",
+      "excerpts": [
+        {
+          "where": "PDF page 56",
+          "text": "Dimensions: 800 x 400 pixels in 200 DPI (Preferred for required quality) i.e. 10 cm * 5 cm (Width * Height) File Size: 50 KB – 100 KB"
+        }
+      ],
+      "requirement": {
+        "label": "ibps_clerk_xvi_declaration",
+        "kb_min": 50,
+        "kb_max": 100,
+        "width": {
+          "exact": 800
+        },
+        "height": {
+          "exact": 400
+        },
+        "aspect": null,
+        "format": "jpeg"
+      },
+      "derived": {
+        "width": "The notice calls this size \"preferred\". The app makes it exactly, which also fits the preference.",
+        "height": "The notice calls this size \"preferred\". The app makes it exactly, which also fits the preference."
+      },
+      "unresolved": {},
+      "notes": [
+        "Write the declaration in English in your own hand, not in capital letters."
+      ]
+    },
+    {
+      "id": "ibps_clerk_xvi_photo",
+      "status": "current",
+      "cycle": "2026",
+      "document": "photo",
+      "title": "IBPS Clerk XVI — photo",
+      "source_title": "IBPS: Notification, CRP-CSA-XVI (posted 01 Aug 2026)",
+      "source_url": "https://www.ibps.in/wp-content/uploads/Notification_CRP_CSA_XVI-Final.pdf",
+      "notice_date": "2026-08-01",
+      "excerpts": [
+        {
+          "where": "PDF page 55",
+          "text": "Photograph Image: (4.5cm × 3.5cm) [...] Dimensions 200 x 230 pixels (preferred). Size of file should be between 20kb–50 kb."
+        }
+      ],
+      "requirement": {
+        "label": "ibps_clerk_xvi_photo",
+        "kb_min": 20,
+        "kb_max": 50,
+        "width": {
+          "exact": 200
+        },
+        "height": {
+          "exact": 230
+        },
+        "aspect": null,
+        "format": "jpeg"
+      },
+      "derived": {
+        "width": "The notice calls this size \"preferred\". The app makes it exactly, which also fits the preference.",
+        "height": "The notice calls this size \"preferred\". The app makes it exactly, which also fits the preference."
+      },
+      "unresolved": {},
+      "notes": [
+        "The notice's 4.5 cm × 3.5 cm and 200 × 230 pixels are slightly different shapes. The app uses the pixels."
+      ]
+    },
+    {
+      "id": "ibps_clerk_xvi_signature",
+      "status": "current",
+      "cycle": "2026",
+      "document": "signature",
+      "title": "IBPS Clerk XVI — signature",
+      "source_title": "IBPS: Notification, CRP-CSA-XVI (posted 01 Aug 2026)",
+      "source_url": "https://www.ibps.in/wp-content/uploads/Notification_CRP_CSA_XVI-Final.pdf",
+      "notice_date": "2026-08-01",
+      "excerpts": [
+        {
+          "where": "PDF page 56",
+          "text": "Dimensions 140 x 60 pixels (preferred). Size of file should be between 10kb – 20kb."
+        }
+      ],
+      "requirement": {
+        "label": "ibps_clerk_xvi_signature",
+        "kb_min": 10,
+        "kb_max": 20,
+        "width": {
+          "exact": 140
+        },
+        "height": {
+          "exact": 60
+        },
+        "aspect": null,
+        "format": "jpeg"
+      },
+      "derived": {
+        "width": "The notice calls this size \"preferred\". The app makes it exactly, which also fits the preference.",
+        "height": "The notice calls this size \"preferred\". The app makes it exactly, which also fits the preference."
+      },
+      "unresolved": {},
+      "notes": [
+        "Sign in black ink on white paper, not in capital letters."
+      ]
+    },
+    {
+      "id": "ibps_clerk_xvi_thumb",
+      "status": "current",
+      "cycle": "2026",
+      "document": "thumb",
+      "title": "IBPS Clerk XVI — left thumb impression",
+      "source_title": "IBPS: Notification, CRP-CSA-XVI (posted 01 Aug 2026)",
+      "source_url": "https://www.ibps.in/wp-content/uploads/Notification_CRP_CSA_XVI-Final.pdf",
+      "notice_date": "2026-08-01",
+      "excerpts": [
+        {
+          "where": "PDF page 56",
+          "text": "Dimensions: 240 x 240 pixels in 200 DPI (Preferred for required quality) i.e. 3 cm * 3 cm (Width * Height). File Size: 20 KB – 50 KB."
+        }
+      ],
+      "requirement": {
+        "label": "ibps_clerk_xvi_thumb",
+        "kb_min": 20,
+        "kb_max": 50,
+        "width": {
+          "exact": 240
+        },
+        "height": {
+          "exact": 240
+        },
+        "aspect": null,
+        "format": "jpeg"
+      },
+      "derived": {
+        "width": "The notice calls this size \"preferred\". The app makes it exactly, which also fits the preference.",
+        "height": "The notice calls this size \"preferred\". The app makes it exactly, which also fits the preference."
+      },
+      "unresolved": {},
+      "notes": [
+        "Put the left thumb impression on white paper with black or blue ink."
+      ]
+    },
+    {
+      "id": "ibps_po_xvi_declaration",
+      "status": "current",
+      "cycle": "2026",
+      "document": "declaration",
+      "title": "IBPS PO XVI — hand-written declaration",
+      "source_title": "IBPS: Detailed Notification, CRP-PO/MTs-XVI (30.06.2026)",
+      "source_url": "https://www.ibps.in/wp-content/uploads/Detailed-Notification_CRP-PO-XVI_Final_V1_30.06.2026.pdf",
+      "notice_date": "2026-06-30",
+      "excerpts": [
+        {
+          "where": "PDF page 41",
+          "text": "Dimensions: 800 x 400 pixels in 200 DPI (Preferred for required quality) i.e. 10 cm * 5 cm (Width * Height) File Size: 50 KB – 100 KB"
+        }
+      ],
+      "requirement": {
+        "label": "ibps_po_xvi_declaration",
+        "kb_min": 50,
+        "kb_max": 100,
+        "width": {
+          "exact": 800
+        },
+        "height": {
+          "exact": 400
+        },
+        "aspect": null,
+        "format": "jpeg"
+      },
+      "derived": {
+        "width": "The notice calls this size \"preferred\". The app makes it exactly, which also fits the preference.",
+        "height": "The notice calls this size \"preferred\". The app makes it exactly, which also fits the preference."
+      },
+      "unresolved": {},
+      "notes": [
+        "Write the declaration in English in your own hand, not in capital letters."
+      ]
+    },
+    {
+      "id": "ibps_po_xvi_photo",
+      "status": "current",
+      "cycle": "2026",
+      "document": "photo",
+      "title": "IBPS PO XVI — photo",
+      "source_title": "IBPS: Detailed Notification, CRP-PO/MTs-XVI (30.06.2026)",
+      "source_url": "https://www.ibps.in/wp-content/uploads/Detailed-Notification_CRP-PO-XVI_Final_V1_30.06.2026.pdf",
+      "notice_date": "2026-06-30",
+      "excerpts": [
+        {
+          "where": "PDF page 39",
+          "text": "Photograph Image: (4.5cm × 3.5cm) [...] Dimensions 200 x 230 pixels (preferred). Size of file should be between 20kb–50 kb."
+        }
+      ],
+      "requirement": {
+        "label": "ibps_po_xvi_photo",
+        "kb_min": 20,
+        "kb_max": 50,
+        "width": {
+          "exact": 200
+        },
+        "height": {
+          "exact": 230
+        },
+        "aspect": null,
+        "format": "jpeg"
+      },
+      "derived": {
+        "width": "The notice calls this size \"preferred\". The app makes it exactly, which also fits the preference.",
+        "height": "The notice calls this size \"preferred\". The app makes it exactly, which also fits the preference."
+      },
+      "unresolved": {},
+      "notes": [
+        "The notice's 4.5 cm × 3.5 cm and 200 × 230 pixels are slightly different shapes. The app uses the pixels."
+      ]
+    },
+    {
+      "id": "ibps_po_xvi_signature",
+      "status": "current",
+      "cycle": "2026",
+      "document": "signature",
+      "title": "IBPS PO XVI — signature",
+      "source_title": "IBPS: Detailed Notification, CRP-PO/MTs-XVI (30.06.2026)",
+      "source_url": "https://www.ibps.in/wp-content/uploads/Detailed-Notification_CRP-PO-XVI_Final_V1_30.06.2026.pdf",
+      "notice_date": "2026-06-30",
+      "excerpts": [
+        {
+          "where": "PDF page 40",
+          "text": "Dimensions 140 x 60 pixels (preferred). Size of file should be between 10kb – 20kb."
+        }
+      ],
+      "requirement": {
+        "label": "ibps_po_xvi_signature",
+        "kb_min": 10,
+        "kb_max": 20,
+        "width": {
+          "exact": 140
+        },
+        "height": {
+          "exact": 60
+        },
+        "aspect": null,
+        "format": "jpeg"
+      },
+      "derived": {
+        "width": "The notice calls this size \"preferred\". The app makes it exactly, which also fits the preference.",
+        "height": "The notice calls this size \"preferred\". The app makes it exactly, which also fits the preference."
+      },
+      "unresolved": {},
+      "notes": [
+        "Sign in black ink on white paper, not in capital letters."
+      ]
+    },
+    {
+      "id": "ibps_po_xvi_thumb",
+      "status": "current",
+      "cycle": "2026",
+      "document": "thumb",
+      "title": "IBPS PO XVI — left thumb impression",
+      "source_title": "IBPS: Detailed Notification, CRP-PO/MTs-XVI (30.06.2026)",
+      "source_url": "https://www.ibps.in/wp-content/uploads/Detailed-Notification_CRP-PO-XVI_Final_V1_30.06.2026.pdf",
+      "notice_date": "2026-06-30",
+      "excerpts": [
+        {
+          "where": "PDF page 40",
+          "text": "Dimensions: 240 x 240 pixels in 200 DPI (Preferred for required quality) i.e. 3 cm * 3 cm (Width * Height). File Size: 20 KB – 50 KB."
+        }
+      ],
+      "requirement": {
+        "label": "ibps_po_xvi_thumb",
+        "kb_min": 20,
+        "kb_max": 50,
+        "width": {
+          "exact": 240
+        },
+        "height": {
+          "exact": 240
+        },
+        "aspect": null,
+        "format": "jpeg"
+      },
+      "derived": {
+        "width": "The notice calls this size \"preferred\". The app makes it exactly, which also fits the preference.",
+        "height": "The notice calls this size \"preferred\". The app makes it exactly, which also fits the preference."
+      },
+      "unresolved": {},
+      "notes": [
+        "Put the left thumb impression on white paper with black or blue ink."
+      ]
+    },
     {
       "id": "jee_main_2026_photo",
       "status": "historic",
@@ -35,6 +531,274 @@
       "notes": [
         "This exam also takes a live photo on its portal. This app cannot do that step."
       ]
+    },
+    {
+      "id": "jee_main_2027_photo",
+      "status": "current",
+      "cycle": "2027",
+      "document": "photo",
+      "title": "JEE Main 2027 — photo",
+      "source_title": "National Testing Agency: JEE (Main) 2027 Information Bulletin",
+      "source_url": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/10/202610241890224107.pdf",
+      "notice_date": "2026-10-24",
+      "excerpts": [
+        {
+          "where": "PDF page 9",
+          "text": "Size of the photograph should be between 10 kB to 200 kB and in JPG/JPEG format (clearly legible)."
+        },
+        {
+          "where": "PDF page 9",
+          "text": "upload his/her recent Scanned passport size photograph which should be in colour with 80% face (including ears, without a mask) against white background."
+        }
+      ],
+      "requirement": {
+        "label": "jee_main_2027_photo",
+        "kb_min": 10,
+        "kb_max": 200,
+        "width": null,
+        "height": null,
+        "aspect": null,
+        "format": "jpeg"
+      },
+      "derived": {},
+      "unresolved": {
+        "width": "The notice gives no pixel width.",
+        "height": "The notice gives no pixel height.",
+        "aspect": "The notice gives no shape."
+      },
+      "notes": [
+        "This exam also takes a live photo on its portal. This app cannot do that step."
+      ]
+    },
+    {
+      "id": "jee_main_2027_signature",
+      "status": "current",
+      "cycle": "2027",
+      "document": "signature",
+      "title": "JEE Main 2027 — signature",
+      "source_title": "National Testing Agency: JEE (Main) 2027 Information Bulletin",
+      "source_url": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/10/202610241890224107.pdf",
+      "notice_date": "2026-10-24",
+      "excerpts": [
+        {
+          "where": "PDF page 9",
+          "text": "Signature file should be JPG/JPEG format (clearly legible) between 10 kB to 100 kB."
+        }
+      ],
+      "requirement": {
+        "label": "jee_main_2027_signature",
+        "kb_min": 10,
+        "kb_max": 100,
+        "width": null,
+        "height": null,
+        "aspect": null,
+        "format": "jpeg"
+      },
+      "derived": {},
+      "unresolved": {
+        "width": "The notice gives no pixel width.",
+        "height": "The notice gives no pixel height.",
+        "aspect": "The notice gives no shape."
+      },
+      "notes": []
+    },
+    {
+      "id": "neet_ug_2026_fingers_thumb",
+      "status": "current",
+      "cycle": "2026",
+      "document": "fingers_thumb",
+      "title": "NEET UG 2026 — fingers and thumb impressions",
+      "source_title": "National Testing Agency: NEET (UG) 2026 Information Bulletin (revised copy of 23 Feb 2026)",
+      "source_url": "https://cdnbbsr.s3waas.gov.in/s37bc1ec1d9c3426357e69acd5bf320061/uploads/2026/02/202602231394640855.pdf",
+      "notice_date": "2026-02-23",
+      "excerpts": [
+        {
+          "where": "PDF page 21, item iii",
+          "text": "Left and Right Hands Fingers and Thumb impressions in JPG/JPEG format between 10 kb to 200 kb"
+        },
+        {
+          "where": "PDF page 22",
+          "text": "Candidate's Left and Right hand Fingers and Thumb impressions: to be uploaded in JPG / JPEG format [...] File size must be between 50 kb to 300 kb."
+        }
+      ],
+      "requirement": {
+        "label": "neet_ug_2026_fingers_thumb",
+        "kb_min": 50,
+        "kb_max": 200,
+        "width": null,
+        "height": null,
+        "aspect": null,
+        "format": "jpeg"
+      },
+      "derived": {
+        "kb": "50–200 kb is the overlap of the notice's two ranges, so the file fits both.",
+        "kb_min": "50–200 kb is the overlap of the notice's two ranges, so the file fits both.",
+        "kb_max": "50–200 kb is the overlap of the notice's two ranges, so the file fits both."
+      },
+      "unresolved": {
+        "width": "The notice gives no pixel width.",
+        "height": "The notice gives no pixel height.",
+        "aspect": "The notice gives no shape."
+      },
+      "notes": [
+        "The notice gives two different size ranges for this file."
+      ]
+    },
+    {
+      "id": "neet_ug_2026_id_proof",
+      "status": "current",
+      "cycle": "2026",
+      "document": "id_proof",
+      "title": "NEET UG 2026 — identity proof",
+      "source_title": "National Testing Agency: NEET (UG) 2026 Information Bulletin (revised copy of 23 Feb 2026)",
+      "source_url": "https://cdnbbsr.s3waas.gov.in/s37bc1ec1d9c3426357e69acd5bf320061/uploads/2026/02/202602231394640855.pdf",
+      "notice_date": "2026-02-23",
+      "excerpts": [
+        {
+          "where": "PDF page 21, item viii",
+          "text": "Scanned copy of Identity Proof (for those candidates who will [...] through methods other than Aadhaar or DigiLocker) should be in format JPG/JPEG between 10 kb to 200 kb."
+        },
+        {
+          "where": "PDF page 21, item xv",
+          "text": "The size of the scanned Identity Proof should be between 50 kb to 300 kb (clearly legible)."
+        }
+      ],
+      "requirement": {
+        "label": "neet_ug_2026_id_proof",
+        "kb_min": 50,
+        "kb_max": 200,
+        "width": null,
+        "height": null,
+        "aspect": null,
+        "format": "jpeg"
+      },
+      "derived": {
+        "kb": "50–200 kb is the overlap of the notice's two ranges, so the file fits both.",
+        "kb_min": "50–200 kb is the overlap of the notice's two ranges, so the file fits both.",
+        "kb_max": "50–200 kb is the overlap of the notice's two ranges, so the file fits both."
+      },
+      "unresolved": {
+        "width": "The notice gives no pixel width.",
+        "height": "The notice gives no pixel height.",
+        "aspect": "The notice gives no shape."
+      },
+      "notes": [
+        "Needed only if you do not use Aadhaar or DigiLocker for identity.",
+        "The notice gives two different size ranges for this file."
+      ]
+    },
+    {
+      "id": "neet_ug_2026_photo",
+      "status": "current",
+      "cycle": "2026",
+      "document": "photo",
+      "title": "NEET UG 2026 — photo",
+      "source_title": "National Testing Agency: NEET (UG) 2026 Information Bulletin (revised copy of 23 Feb 2026)",
+      "source_url": "https://cdnbbsr.s3waas.gov.in/s37bc1ec1d9c3426357e69acd5bf320061/uploads/2026/02/202602231394640855.pdf",
+      "notice_date": "2026-02-23",
+      "excerpts": [
+        {
+          "where": "PDF page 21",
+          "text": "The recent passport size photograph should be either in colour or black & white with 80% face (without mask) visible including ears against white background. 80% area of the image should be candidate's face. Photograph should be in JPG/JPEG format (clearly legible) between 10 kb to 200 kb."
+        }
+      ],
+      "requirement": {
+        "label": "neet_ug_2026_photo",
+        "kb_min": 10,
+        "kb_max": 200,
+        "width": null,
+        "height": null,
+        "aspect": null,
+        "format": "jpeg"
+      },
+      "derived": {},
+      "unresolved": {
+        "width": "The notice gives no pixel width.",
+        "height": "The notice gives no pixel height.",
+        "aspect": "The notice gives no shape."
+      },
+      "notes": [
+        "This exam also takes a live photo on its portal. This app cannot do that step."
+      ]
+    },
+    {
+      "id": "neet_ug_2026_signature",
+      "status": "current",
+      "cycle": "2026",
+      "document": "signature",
+      "title": "NEET UG 2026 — signature",
+      "source_title": "National Testing Agency: NEET (UG) 2026 Information Bulletin (revised copy of 23 Feb 2026)",
+      "source_url": "https://cdnbbsr.s3waas.gov.in/s37bc1ec1d9c3426357e69acd5bf320061/uploads/2026/02/202602231394640855.pdf",
+      "notice_date": "2026-02-23",
+      "excerpts": [
+        {
+          "where": "PDF page 21",
+          "text": "Signature file should be in JPG/JPEG format between 10 kb to 100 kb"
+        }
+      ],
+      "requirement": {
+        "label": "neet_ug_2026_signature",
+        "kb_min": 10,
+        "kb_max": 100,
+        "width": null,
+        "height": null,
+        "aspect": null,
+        "format": "jpeg"
+      },
+      "derived": {},
+      "unresolved": {
+        "width": "The notice gives no pixel width.",
+        "height": "The notice gives no pixel height.",
+        "aspect": "The notice gives no shape."
+      },
+      "notes": []
+    },
+    {
+      "id": "rrb_ntpc_cen06_2026_signature",
+      "status": "current",
+      "cycle": "2026",
+      "document": "signature",
+      "title": "RRB NTPC Graduate (CEN 06/2026) — signature",
+      "source_title": "RRB: CEN 06/2026 Non-Technical Popular Categories (Graduate)",
+      "source_url": "https://cdn.testbook.com/1791376000619-RRB_Ranchi_CEN_06-2026_NTPC_Notice.pdf/1791376001.pdf",
+      "notice_date": "2026-10-08",
+      "excerpts": [
+        {
+          "where": "PDF page 23, para 14.5.1",
+          "text": "Scan the signed paper using a minimum resolution of 100 DPI. Image file format: JPG/JPEG only [...] File size: Between 30 KB and 49 KB [...] Image dimensions: Minimum 140 pixels (width) × 60 pixels (height)"
+        },
+        {
+          "where": "Adda247 (read 6 Nov 2026)",
+          "text": "Signature in JPG/JPEG Format between 30KB and 49KB with minimum 140 Pixels (width) × 60 Pixels (height)."
+        }
+      ],
+      "requirement": {
+        "label": "rrb_ntpc_cen06_2026_signature",
+        "kb_min": 30,
+        "kb_max": 49,
+        "width": {
+          "min": 140,
+          "max": 1200
+        },
+        "height": {
+          "min": 60,
+          "max": 600
+        },
+        "aspect": null,
+        "format": "jpeg"
+      },
+      "derived": {
+        "width": "The notice gives only a minimum (140 px). The app also keeps the width at most 1,200 px.",
+        "height": "The notice gives only a minimum (60 px). The app also keeps the height at most 600 px."
+      },
+      "unresolved": {},
+      "notes": [
+        "Applications opened 08.10.2026 and close 06.11.2026 (23:59).",
+        "The photograph for this exam is captured live on its portal. This app cannot do that step."
+      ],
+      "web": {
+        "source": "Copy of the RRB notice hosted by Testbook (read 6 Nov 2026). The RRB site could not be opened. Adda247 gives the same values."
+      }
     },
     {
       "id": "ssc_cgl_2026_signature",
@@ -76,6 +840,183 @@
       "notes": [
         "The photograph for this exam is captured live on its portal. This app cannot do that step."
       ]
+    },
+    {
+      "id": "ssc_cgl_2026_signature_current",
+      "status": "current",
+      "cycle": "2026",
+      "document": "signature",
+      "title": "SSC CGL 2026 — signature",
+      "source_title": "Staff Selection Commission: Notice, Combined Graduate Level Examination, 2026 (dated 21-05-2026)",
+      "source_url": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_cgl_2025.pdf",
+      "notice_date": "2026-05-21",
+      "excerpts": [
+        {
+          "where": "PDF page 18, para 9.6 (same text on page 52)",
+          "text": "Candidates are required to upload the scanned signature in JPEG/JPG format (10 to 20 KB). Image dimension of the signature should be about 6.0 cm (width) x 2.0 cm (height)."
+        },
+        {
+          "where": "PDF page 71, Annexure-IV",
+          "text": "The scanned signature in JPEG/JPG format (10 to 20 KB). The image dimension of signature should be about 4.0 cm (Width) x 2.0 cm (Height)."
+        }
+      ],
+      "requirement": {
+        "label": "ssc_cgl_2026_signature_current",
+        "kb_min": 10,
+        "kb_max": 20,
+        "width": null,
+        "height": null,
+        "aspect": {
+          "w": 3,
+          "h": 1
+        },
+        "format": "jpeg"
+      },
+      "derived": {
+        "aspect": "3:1 is derived from \"about 6.0 cm (width) x 2.0 cm (height)\" in para 9.6. The same notice's annexure says \"about 4.0 cm (width) x 2.0 cm (height)\" (2:1). The notice does not settle which is right."
+      },
+      "unresolved": {
+        "width": "The notice gives centimetres only, with no DPI, so there is no pixel width to check.",
+        "height": "The notice gives centimetres only, with no DPI, so there is no pixel height to check."
+      },
+      "notes": [
+        "The photograph for this exam is captured live on its portal. This app cannot do that step."
+      ]
+    },
+    {
+      "id": "ssc_chsl_2026_signature",
+      "status": "current",
+      "cycle": "2026",
+      "document": "signature",
+      "title": "SSC CHSL 2026 — signature",
+      "source_title": "Staff Selection Commission: Notice of Combined Higher Secondary (10+2) Level Examination, 2026 (07-09-2026)",
+      "source_url": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_chsle_2026.pdf",
+      "notice_date": "2026-09-07",
+      "excerpts": [
+        {
+          "where": "PDF page 12, para 9.6 (same text on page 35)",
+          "text": "Candidates are required to upload the scanned signature in JPEG/JPG format (10 to 20 KB). Image dimension of the signature should be about 6.0 cm (width) x 2.0 cm (height)."
+        },
+        {
+          "where": "PDF page 53",
+          "text": "Scanned signature in JPEG format (10 to 20 KB). Image dimension of the signature should be about 4.0 cm (width) x 2.0 cm (height)."
+        }
+      ],
+      "requirement": {
+        "label": "ssc_chsl_2026_signature",
+        "kb_min": 10,
+        "kb_max": 20,
+        "width": null,
+        "height": null,
+        "aspect": {
+          "w": 3,
+          "h": 1
+        },
+        "format": "jpeg"
+      },
+      "derived": {
+        "aspect": "3:1 is derived from \"about 6.0 cm (width) x 2.0 cm (height)\" in para 9.6. The same notice's annexure says \"about 4.0 cm (width) x 2.0 cm (height)\" (2:1). The notice does not settle which is right."
+      },
+      "unresolved": {
+        "width": "The notice gives centimetres only, with no DPI, so there is no pixel width to check.",
+        "height": "The notice gives centimetres only, with no DPI, so there is no pixel height to check."
+      },
+      "notes": [
+        "The photograph for this exam is captured live on its portal. This app cannot do that step."
+      ]
+    },
+    {
+      "id": "upsc_cse_2026_photo",
+      "status": "current",
+      "cycle": "2026",
+      "document": "photo",
+      "title": "UPSC CSE 2026 — photo",
+      "source_title": "UPSC: Civil Services Examination 2026 notice (04.02.2026); sizes from Vision IAS and Vajiram & Ravi",
+      "source_url": "https://www.upsc.gov.in/sites/default/files/Notif-CSP-2026-Engl-060226Rev.pdf",
+      "notice_date": "2026-02-04",
+      "excerpts": [
+        {
+          "where": "Notice, PDF page 17",
+          "text": "Applicants are required to upload their photograph and also capture their live photograph while filling up the Common Application Form (CAF)."
+        },
+        {
+          "where": "Vision IAS",
+          "text": "Use a colour photo in jpg format between 20KB and 200KB, saved with the filename 'photo'."
+        },
+        {
+          "where": "Vajiram & Ravi",
+          "text": "Use a colour photograph in JPG format between 20 KB and 200 KB, saved with the filename 'photo'."
+        }
+      ],
+      "requirement": {
+        "label": "upsc_cse_2026_photo",
+        "kb_min": 20,
+        "kb_max": 200,
+        "width": null,
+        "height": null,
+        "aspect": null,
+        "format": "jpeg"
+      },
+      "derived": {},
+      "unresolved": {
+        "width": "Neither website gives a pixel width.",
+        "height": "Neither website gives a pixel height.",
+        "aspect": "Neither website gives a shape."
+      },
+      "notes": [
+        "The UPSC notice points to instructions on upsconline.nic.in that need a login. Sizes here are from two coaching websites; Testbook lists 20–300 KB instead.",
+        "This exam also takes a live photo on its portal. This app cannot do that step."
+      ],
+      "web": {
+        "kb_min": "From Vision IAS and Vajiram & Ravi (read 6 Nov 2026), not the exam body.",
+        "kb_max": "From Vision IAS and Vajiram & Ravi (read 6 Nov 2026), not the exam body."
+      }
+    },
+    {
+      "id": "upsc_cse_2026_signature",
+      "status": "current",
+      "cycle": "2026",
+      "document": "signature",
+      "title": "UPSC CSE 2026 — signature (three times)",
+      "source_title": "UPSC: Civil Services Examination 2026 notice (04.02.2026); sizes from Vision IAS and Vajiram & Ravi",
+      "source_url": "https://www.upsc.gov.in/sites/default/files/Notif-CSP-2026-Engl-060226Rev.pdf",
+      "notice_date": "2026-02-04",
+      "excerpts": [
+        {
+          "where": "Notice, PDF page 18, Note 3",
+          "text": "Applicants are required to sign three times (one below the other) on a plain white paper using a black ink and upload the same while filling up the Common Application Form (CAF)."
+        },
+        {
+          "where": "Vision IAS",
+          "text": "File size: 20 KB to 100 KB. Image dimensions: 350–500 pixels"
+        },
+        {
+          "where": "Vajiram & Ravi",
+          "text": "The signature file must be uploaded between 20 KB and 100 KB and image dimension should be 350 - 500 pixels."
+        }
+      ],
+      "requirement": {
+        "label": "upsc_cse_2026_signature",
+        "kb_min": 20,
+        "kb_max": 100,
+        "width": null,
+        "height": null,
+        "aspect": null,
+        "format": "jpeg"
+      },
+      "derived": {},
+      "unresolved": {
+        "width": "\"350–500 pixels\" does not say which side, so width is not checked.",
+        "height": "\"350–500 pixels\" does not say which side, so height is not checked.",
+        "aspect": "Neither website gives a shape."
+      },
+      "notes": [
+        "The UPSC notice points to instructions on upsconline.nic.in that need a login. Sizes here are from two coaching websites; Testbook lists 20–300 KB instead."
+      ],
+      "web": {
+        "kb_min": "From Vision IAS and Vajiram & Ravi (read 6 Nov 2026), not the exam body.",
+        "kb_max": "From Vision IAS and Vajiram & Ravi (read 6 Nov 2026), not the exam body."
+      }
     }
   ]
 }
