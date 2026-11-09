@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "version": 3,
-  "published": "2026-11-06",
+  "version": 4,
+  "published": "2026-11-07",
   "rules": [
     {
       "id": "cuet_ug_2026_id_proof",
@@ -223,17 +223,25 @@
         "kb_min": 50,
         "kb_max": 100,
         "width": {
-          "exact": 800
+          "min": 800,
+          "max": 3200,
+          "preferred": 800
         },
         "height": {
-          "exact": 400
+          "min": 400,
+          "max": 1600,
+          "preferred": 400
         },
-        "aspect": null,
+        "aspect": {
+          "w": 2,
+          "h": 1
+        },
         "format": "jpeg"
       },
       "derived": {
-        "width": "The notice calls this size \"preferred\". The app makes it exactly, which also fits the preference.",
-        "height": "The notice calls this size \"preferred\". The app makes it exactly, which also fits the preference."
+        "width": "The notice prefers 800 × 400 px. The app starts at that size and only makes the file larger, keeping the shape, if it can't reach the KB minimum.",
+        "height": "The notice prefers 800 × 400 px. The app starts at that size and only makes the file larger, keeping the shape, if it can't reach the KB minimum.",
+        "aspect": "2:1 is the shape of the preferred 800 × 400 px."
       },
       "unresolved": {},
       "notes": [
@@ -260,21 +268,29 @@
         "kb_min": 20,
         "kb_max": 50,
         "width": {
-          "exact": 200
+          "min": 200,
+          "max": 800,
+          "preferred": 200
         },
         "height": {
-          "exact": 230
+          "min": 230,
+          "max": 920,
+          "preferred": 230
         },
-        "aspect": null,
+        "aspect": {
+          "w": 20,
+          "h": 23
+        },
         "format": "jpeg"
       },
       "derived": {
-        "width": "The notice calls this size \"preferred\". The app makes it exactly, which also fits the preference.",
-        "height": "The notice calls this size \"preferred\". The app makes it exactly, which also fits the preference."
+        "width": "The notice prefers 200 × 230 px. The app starts at that size and only makes the file larger, keeping the shape, if it can't reach the KB minimum.",
+        "height": "The notice prefers 200 × 230 px. The app starts at that size and only makes the file larger, keeping the shape, if it can't reach the KB minimum.",
+        "aspect": "20:23 is the shape of the preferred 200 × 230 px."
       },
       "unresolved": {},
       "notes": [
-        "The notice's 4.5 cm × 3.5 cm and 200 × 230 pixels are slightly different shapes. The app uses the pixels."
+        "The notice's 4.5 cm × 3.5 cm and 200 × 230 pixels are slightly different shapes. The app uses the pixel shape."
       ]
     },
     {
@@ -297,17 +313,25 @@
         "kb_min": 10,
         "kb_max": 20,
         "width": {
-          "exact": 140
+          "min": 140,
+          "max": 560,
+          "preferred": 140
         },
         "height": {
-          "exact": 60
+          "min": 60,
+          "max": 240,
+          "preferred": 60
         },
-        "aspect": null,
+        "aspect": {
+          "w": 7,
+          "h": 3
+        },
         "format": "jpeg"
       },
       "derived": {
-        "width": "The notice calls this size \"preferred\". The app makes it exactly, which also fits the preference.",
-        "height": "The notice calls this size \"preferred\". The app makes it exactly, which also fits the preference."
+        "width": "The notice prefers 140 × 60 px. The app starts at that size and only makes the file larger, keeping the shape, if it can't reach the KB minimum.",
+        "height": "The notice prefers 140 × 60 px. The app starts at that size and only makes the file larger, keeping the shape, if it can't reach the KB minimum.",
+        "aspect": "7:3 is the shape of the preferred 140 × 60 px."
       },
       "unresolved": {},
       "notes": [
@@ -334,17 +358,25 @@
         "kb_min": 20,
         "kb_max": 50,
         "width": {
-          "exact": 240
+          "min": 240,
+          "max": 960,
+          "preferred": 240
         },
         "height": {
-          "exact": 240
+          "min": 240,
+          "max": 960,
+          "preferred": 240
         },
-        "aspect": null,
+        "aspect": {
+          "w": 1,
+          "h": 1
+        },
         "format": "jpeg"
       },
       "derived": {
-        "width": "The notice calls this size \"preferred\". The app makes it exactly, which also fits the preference.",
-        "height": "The notice calls this size \"preferred\". The app makes it exactly, which also fits the preference."
+        "width": "The notice prefers 240 × 240 px. The app starts at that size and only makes the file larger, keeping the shape, if it can't reach the KB minimum.",
+        "height": "The notice prefers 240 × 240 px. The app starts at that size and only makes the file larger, keeping the shape, if it can't reach the KB minimum.",
+        "aspect": "1:1 is the shape of the preferred 240 × 240 px."
       },
       "unresolved": {},
       "notes": [
@@ -371,17 +403,25 @@
         "kb_min": 50,
         "kb_max": 100,
         "width": {
-          "exact": 800
+          "min": 800,
+          "max": 3200,
+          "preferred": 800
         },
         "height": {
-          "exact": 400
+          "min": 400,
+          "max": 1600,
+          "preferred": 400
         },
-        "aspect": null,
+        "aspect": {
+          "w": 2,
+          "h": 1
+        },
         "format": "jpeg"
       },
       "derived": {
-        "width": "The notice calls this size \"preferred\". The app makes it exactly, which also fits the preference.",
-        "height": "The notice calls this size \"preferred\". The app makes it exactly, which also fits the preference."
+        "width": "The notice prefers 800 × 400 px. The app starts at that size and only makes the file larger, keeping the shape, if it can't reach the KB minimum.",
+        "height": "The notice prefers 800 × 400 px. The app starts at that size and only makes the file larger, keeping the shape, if it can't reach the KB minimum.",
+        "aspect": "2:1 is the shape of the preferred 800 × 400 px."
       },
       "unresolved": {},
       "notes": [
@@ -408,21 +448,29 @@
         "kb_min": 20,
         "kb_max": 50,
         "width": {
-          "exact": 200
+          "min": 200,
+          "max": 800,
+          "preferred": 200
         },
         "height": {
-          "exact": 230
+          "min": 230,
+          "max": 920,
+          "preferred": 230
         },
-        "aspect": null,
+        "aspect": {
+          "w": 20,
+          "h": 23
+        },
         "format": "jpeg"
       },
       "derived": {
-        "width": "The notice calls this size \"preferred\". The app makes it exactly, which also fits the preference.",
-        "height": "The notice calls this size \"preferred\". The app makes it exactly, which also fits the preference."
+        "width": "The notice prefers 200 × 230 px. The app starts at that size and only makes the file larger, keeping the shape, if it can't reach the KB minimum.",
+        "height": "The notice prefers 200 × 230 px. The app starts at that size and only makes the file larger, keeping the shape, if it can't reach the KB minimum.",
+        "aspect": "20:23 is the shape of the preferred 200 × 230 px."
       },
       "unresolved": {},
       "notes": [
-        "The notice's 4.5 cm × 3.5 cm and 200 × 230 pixels are slightly different shapes. The app uses the pixels."
+        "The notice's 4.5 cm × 3.5 cm and 200 × 230 pixels are slightly different shapes. The app uses the pixel shape."
       ]
     },
     {
@@ -445,17 +493,25 @@
         "kb_min": 10,
         "kb_max": 20,
         "width": {
-          "exact": 140
+          "min": 140,
+          "max": 560,
+          "preferred": 140
         },
         "height": {
-          "exact": 60
+          "min": 60,
+          "max": 240,
+          "preferred": 60
         },
-        "aspect": null,
+        "aspect": {
+          "w": 7,
+          "h": 3
+        },
         "format": "jpeg"
       },
       "derived": {
-        "width": "The notice calls this size \"preferred\". The app makes it exactly, which also fits the preference.",
-        "height": "The notice calls this size \"preferred\". The app makes it exactly, which also fits the preference."
+        "width": "The notice prefers 140 × 60 px. The app starts at that size and only makes the file larger, keeping the shape, if it can't reach the KB minimum.",
+        "height": "The notice prefers 140 × 60 px. The app starts at that size and only makes the file larger, keeping the shape, if it can't reach the KB minimum.",
+        "aspect": "7:3 is the shape of the preferred 140 × 60 px."
       },
       "unresolved": {},
       "notes": [
@@ -482,17 +538,25 @@
         "kb_min": 20,
         "kb_max": 50,
         "width": {
-          "exact": 240
+          "min": 240,
+          "max": 960,
+          "preferred": 240
         },
         "height": {
-          "exact": 240
+          "min": 240,
+          "max": 960,
+          "preferred": 240
         },
-        "aspect": null,
+        "aspect": {
+          "w": 1,
+          "h": 1
+        },
         "format": "jpeg"
       },
       "derived": {
-        "width": "The notice calls this size \"preferred\". The app makes it exactly, which also fits the preference.",
-        "height": "The notice calls this size \"preferred\". The app makes it exactly, which also fits the preference."
+        "width": "The notice prefers 240 × 240 px. The app starts at that size and only makes the file larger, keeping the shape, if it can't reach the KB minimum.",
+        "height": "The notice prefers 240 × 240 px. The app starts at that size and only makes the file larger, keeping the shape, if it can't reach the KB minimum.",
+        "aspect": "1:1 is the shape of the preferred 240 × 240 px."
       },
       "unresolved": {},
       "notes": [
