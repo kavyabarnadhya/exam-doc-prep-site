@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "version": 4,
-  "published": "2026-11-07",
+  "version": 5,
+  "published": "2026-11-17",
   "rules": [
     {
       "id": "cuet_ug_2026_id_proof",
@@ -816,53 +816,6 @@
         "aspect": "The notice gives no shape."
       },
       "notes": []
-    },
-    {
-      "id": "rrb_ntpc_cen06_2026_signature",
-      "status": "current",
-      "cycle": "2026",
-      "document": "signature",
-      "title": "RRB NTPC Graduate (CEN 06/2026) — signature",
-      "source_title": "RRB: CEN 06/2026 Non-Technical Popular Categories (Graduate)",
-      "source_url": "https://cdn.testbook.com/1791376000619-RRB_Ranchi_CEN_06-2026_NTPC_Notice.pdf/1791376001.pdf",
-      "notice_date": "2026-10-08",
-      "excerpts": [
-        {
-          "where": "PDF page 23, para 14.5.1",
-          "text": "Scan the signed paper using a minimum resolution of 100 DPI. Image file format: JPG/JPEG only [...] File size: Between 30 KB and 49 KB [...] Image dimensions: Minimum 140 pixels (width) × 60 pixels (height)"
-        },
-        {
-          "where": "Adda247 (read 6 Nov 2026)",
-          "text": "Signature in JPG/JPEG Format between 30KB and 49KB with minimum 140 Pixels (width) × 60 Pixels (height)."
-        }
-      ],
-      "requirement": {
-        "label": "rrb_ntpc_cen06_2026_signature",
-        "kb_min": 30,
-        "kb_max": 49,
-        "width": {
-          "min": 140,
-          "max": 1200
-        },
-        "height": {
-          "min": 60,
-          "max": 600
-        },
-        "aspect": null,
-        "format": "jpeg"
-      },
-      "derived": {
-        "width": "The notice gives only a minimum (140 px). The app also keeps the width at most 1,200 px.",
-        "height": "The notice gives only a minimum (60 px). The app also keeps the height at most 600 px."
-      },
-      "unresolved": {},
-      "notes": [
-        "Applications opened 08.10.2026 and close 06.11.2026 (23:59).",
-        "The photograph for this exam is captured live on its portal. This app cannot do that step."
-      ],
-      "web": {
-        "source": "Copy of the RRB notice hosted by Testbook (read 6 Nov 2026). The RRB site could not be opened. Adda247 gives the same values."
-      }
     },
     {
       "id": "ssc_cgl_2026_signature",
