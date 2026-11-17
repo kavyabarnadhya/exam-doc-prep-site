@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "version": 5,
+  "version": 7,
   "published": "2026-11-17",
   "rules": [
     {
@@ -11,6 +11,10 @@
       "title": "CUET UG 2026 — identity proof",
       "source_title": "National Testing Agency: CUET (UG) 2026 Information Bulletin",
       "source_url": "https://cdnbbsr.s3waas.gov.in/s3d1a21da7bca4abff8b0b61b87597de73/uploads/2026/01/202601031633478370.pdf",
+      "exam_site": {
+        "name": "NTA: CUET UG, JEE Main, NEET UG",
+        "url": "https://nta.ac.in/"
+      },
       "notice_date": "2026-01-03",
       "excerpts": [
         {
@@ -45,6 +49,10 @@
       "title": "CUET UG 2026 — photo",
       "source_title": "National Testing Agency: CUET (UG) 2026 Information Bulletin",
       "source_url": "https://cdnbbsr.s3waas.gov.in/s3d1a21da7bca4abff8b0b61b87597de73/uploads/2026/01/202601031633478370.pdf",
+      "exam_site": {
+        "name": "NTA: CUET UG, JEE Main, NEET UG",
+        "url": "https://nta.ac.in/"
+      },
       "notice_date": "2026-01-03",
       "excerpts": [
         {
@@ -79,6 +87,10 @@
       "title": "CUET UG 2026 — signature",
       "source_title": "National Testing Agency: CUET (UG) 2026 Information Bulletin",
       "source_url": "https://cdnbbsr.s3waas.gov.in/s3d1a21da7bca4abff8b0b61b87597de73/uploads/2026/01/202601031633478370.pdf",
+      "exam_site": {
+        "name": "NTA: CUET UG, JEE Main, NEET UG",
+        "url": "https://nta.ac.in/"
+      },
       "notice_date": "2026-01-03",
       "excerpts": [
         {
@@ -111,6 +123,10 @@
       "title": "GATE 2027 — photo",
       "source_title": "GATE 2027 (IIT Madras): Photograph and Signature page",
       "source_url": "https://gate2027.iitm.ac.in/photograph_and_signature",
+      "exam_site": {
+        "name": "GATE 2027: IIT Madras",
+        "url": "https://gate2027.iitm.ac.in/"
+      },
       "notice_date": "2026-09-02",
       "excerpts": [
         {
@@ -161,6 +177,10 @@
       "title": "GATE 2027 — signature",
       "source_title": "GATE 2027 (IIT Madras): Photograph and Signature page",
       "source_url": "https://gate2027.iitm.ac.in/photograph_and_signature",
+      "exam_site": {
+        "name": "GATE 2027: IIT Madras",
+        "url": "https://gate2027.iitm.ac.in/"
+      },
       "notice_date": "2026-09-02",
       "excerpts": [
         {
@@ -211,6 +231,10 @@
       "title": "IBPS Clerk XVI — hand-written declaration",
       "source_title": "IBPS: Notification, CRP-CSA-XVI",
       "source_url": "https://www.ibps.in/wp-content/uploads/Notification_CRP_CSA_XVI-Final.pdf",
+      "exam_site": {
+        "name": "IBPS: PO and Clerk",
+        "url": "https://www.ibps.in/"
+      },
       "notice_date": "2026-08-01",
       "excerpts": [
         {
@@ -256,6 +280,10 @@
       "title": "IBPS Clerk XVI — photo",
       "source_title": "IBPS: Notification, CRP-CSA-XVI",
       "source_url": "https://www.ibps.in/wp-content/uploads/Notification_CRP_CSA_XVI-Final.pdf",
+      "exam_site": {
+        "name": "IBPS: PO and Clerk",
+        "url": "https://www.ibps.in/"
+      },
       "notice_date": "2026-08-01",
       "excerpts": [
         {
@@ -301,6 +329,10 @@
       "title": "IBPS Clerk XVI — signature",
       "source_title": "IBPS: Notification, CRP-CSA-XVI",
       "source_url": "https://www.ibps.in/wp-content/uploads/Notification_CRP_CSA_XVI-Final.pdf",
+      "exam_site": {
+        "name": "IBPS: PO and Clerk",
+        "url": "https://www.ibps.in/"
+      },
       "notice_date": "2026-08-01",
       "excerpts": [
         {
@@ -346,6 +378,10 @@
       "title": "IBPS Clerk XVI — left thumb impression",
       "source_title": "IBPS: Notification, CRP-CSA-XVI",
       "source_url": "https://www.ibps.in/wp-content/uploads/Notification_CRP_CSA_XVI-Final.pdf",
+      "exam_site": {
+        "name": "IBPS: PO and Clerk",
+        "url": "https://www.ibps.in/"
+      },
       "notice_date": "2026-08-01",
       "excerpts": [
         {
@@ -391,6 +427,10 @@
       "title": "IBPS PO XVI — hand-written declaration",
       "source_title": "IBPS: Detailed Notification, CRP-PO/MTs-XVI",
       "source_url": "https://www.ibps.in/wp-content/uploads/Detailed-Notification_CRP-PO-XVI_Final_V1_30.06.2026.pdf",
+      "exam_site": {
+        "name": "IBPS: PO and Clerk",
+        "url": "https://www.ibps.in/"
+      },
       "notice_date": "2026-06-30",
       "excerpts": [
         {
@@ -436,6 +476,10 @@
       "title": "IBPS PO XVI — photo",
       "source_title": "IBPS: Detailed Notification, CRP-PO/MTs-XVI",
       "source_url": "https://www.ibps.in/wp-content/uploads/Detailed-Notification_CRP-PO-XVI_Final_V1_30.06.2026.pdf",
+      "exam_site": {
+        "name": "IBPS: PO and Clerk",
+        "url": "https://www.ibps.in/"
+      },
       "notice_date": "2026-06-30",
       "excerpts": [
         {
@@ -481,6 +525,10 @@
       "title": "IBPS PO XVI — signature",
       "source_title": "IBPS: Detailed Notification, CRP-PO/MTs-XVI",
       "source_url": "https://www.ibps.in/wp-content/uploads/Detailed-Notification_CRP-PO-XVI_Final_V1_30.06.2026.pdf",
+      "exam_site": {
+        "name": "IBPS: PO and Clerk",
+        "url": "https://www.ibps.in/"
+      },
       "notice_date": "2026-06-30",
       "excerpts": [
         {
@@ -526,6 +574,10 @@
       "title": "IBPS PO XVI — left thumb impression",
       "source_title": "IBPS: Detailed Notification, CRP-PO/MTs-XVI",
       "source_url": "https://www.ibps.in/wp-content/uploads/Detailed-Notification_CRP-PO-XVI_Final_V1_30.06.2026.pdf",
+      "exam_site": {
+        "name": "IBPS: PO and Clerk",
+        "url": "https://www.ibps.in/"
+      },
       "notice_date": "2026-06-30",
       "excerpts": [
         {
@@ -604,6 +656,10 @@
       "title": "JEE Main 2027 — photo",
       "source_title": "National Testing Agency: JEE (Main) 2027 Information Bulletin",
       "source_url": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/10/202610241890224107.pdf",
+      "exam_site": {
+        "name": "NTA: CUET UG, JEE Main, NEET UG",
+        "url": "https://nta.ac.in/"
+      },
       "notice_date": "2026-10-24",
       "excerpts": [
         {
@@ -642,6 +698,10 @@
       "title": "JEE Main 2027 — signature",
       "source_title": "National Testing Agency: JEE (Main) 2027 Information Bulletin",
       "source_url": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/10/202610241890224107.pdf",
+      "exam_site": {
+        "name": "NTA: CUET UG, JEE Main, NEET UG",
+        "url": "https://nta.ac.in/"
+      },
       "notice_date": "2026-10-24",
       "excerpts": [
         {
@@ -674,6 +734,10 @@
       "title": "NEET UG 2026 — fingers and thumb impressions",
       "source_title": "National Testing Agency: NEET (UG) 2026 Information Bulletin (revised copy)",
       "source_url": "https://cdnbbsr.s3waas.gov.in/s37bc1ec1d9c3426357e69acd5bf320061/uploads/2026/02/202602231394640855.pdf",
+      "exam_site": {
+        "name": "NTA: CUET UG, JEE Main, NEET UG",
+        "url": "https://nta.ac.in/"
+      },
       "notice_date": "2026-02-23",
       "excerpts": [
         {
@@ -716,6 +780,10 @@
       "title": "NEET UG 2026 — identity proof",
       "source_title": "National Testing Agency: NEET (UG) 2026 Information Bulletin (revised copy)",
       "source_url": "https://cdnbbsr.s3waas.gov.in/s37bc1ec1d9c3426357e69acd5bf320061/uploads/2026/02/202602231394640855.pdf",
+      "exam_site": {
+        "name": "NTA: CUET UG, JEE Main, NEET UG",
+        "url": "https://nta.ac.in/"
+      },
       "notice_date": "2026-02-23",
       "excerpts": [
         {
@@ -759,6 +827,10 @@
       "title": "NEET UG 2026 — photo",
       "source_title": "National Testing Agency: NEET (UG) 2026 Information Bulletin (revised copy)",
       "source_url": "https://cdnbbsr.s3waas.gov.in/s37bc1ec1d9c3426357e69acd5bf320061/uploads/2026/02/202602231394640855.pdf",
+      "exam_site": {
+        "name": "NTA: CUET UG, JEE Main, NEET UG",
+        "url": "https://nta.ac.in/"
+      },
       "notice_date": "2026-02-23",
       "excerpts": [
         {
@@ -793,6 +865,10 @@
       "title": "NEET UG 2026 — signature",
       "source_title": "National Testing Agency: NEET (UG) 2026 Information Bulletin (revised copy)",
       "source_url": "https://cdnbbsr.s3waas.gov.in/s37bc1ec1d9c3426357e69acd5bf320061/uploads/2026/02/202602231394640855.pdf",
+      "exam_site": {
+        "name": "NTA: CUET UG, JEE Main, NEET UG",
+        "url": "https://nta.ac.in/"
+      },
       "notice_date": "2026-02-23",
       "excerpts": [
         {
@@ -866,6 +942,10 @@
       "title": "SSC CGL 2026 — signature",
       "source_title": "Staff Selection Commission: Notice, Combined Graduate Level Examination, 2026",
       "source_url": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_cgl_2025.pdf",
+      "exam_site": {
+        "name": "SSC: CGL, CHSL and GD",
+        "url": "https://ssc.gov.in/"
+      },
       "notice_date": "2026-05-21",
       "excerpts": [
         {
@@ -908,6 +988,10 @@
       "title": "SSC CHSL 2026 — signature",
       "source_title": "Staff Selection Commission: Notice of Combined Higher Secondary (10+2) Level Examination, 2026",
       "source_url": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_chsle_2026.pdf",
+      "exam_site": {
+        "name": "SSC: CGL, CHSL and GD",
+        "url": "https://ssc.gov.in/"
+      },
       "notice_date": "2026-09-07",
       "excerpts": [
         {
@@ -943,6 +1027,52 @@
       ]
     },
     {
+      "id": "ssc_gd_2026_signature",
+      "status": "current",
+      "cycle": "2026",
+      "document": "signature",
+      "title": "SSC GD Constable 2026 — signature",
+      "source_title": "Staff Selection Commission: Notice, Constable (GD) in CAPFs and SSF, and Rifleman (GD) in Assam Rifles Examination, 2026",
+      "source_url": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_CTGD_2026.pdf",
+      "exam_site": {
+        "name": "SSC: CGL, CHSL and GD",
+        "url": "https://ssc.gov.in/"
+      },
+      "notice_date": "2025-12-01",
+      "excerpts": [
+        {
+          "where": "PDF page 10, para 8.7",
+          "text": "Candidates are required to upload the scanned signature in JPEG format (10 to 20 KB). The image dimension of the signature should be about 6.0 cm (width) x 2.0 cm (height)."
+        },
+        {
+          "where": "PDF page 29, item 6",
+          "text": "Candidates are required to upload the scanned signature in JPEG format (10 to 20 KB). The image dimension of the signature should be about 6.0 cm (width) x 2.0 cm (height)."
+        }
+      ],
+      "requirement": {
+        "label": "ssc_gd_2026_signature",
+        "kb_min": 10,
+        "kb_max": 20,
+        "width": null,
+        "height": null,
+        "aspect": {
+          "w": 3,
+          "h": 1
+        },
+        "format": "jpeg"
+      },
+      "derived": {
+        "aspect": "3:1 is derived from \"about 6.0 cm (width) x 2.0 cm (height)\" in para 8.7 (the same size is repeated on page 29)."
+      },
+      "unresolved": {
+        "width": "The notice gives centimetres only, with no DPI, so there is no pixel size to check.",
+        "height": "The notice gives centimetres only, with no DPI, so there is no pixel size to check."
+      },
+      "notes": [
+        "The photograph for this exam is captured live on its portal. This app cannot do that step."
+      ]
+    },
+    {
       "id": "upsc_cse_2026_photo",
       "status": "current",
       "cycle": "2026",
@@ -950,6 +1080,10 @@
       "title": "UPSC CSE 2026 — photo",
       "source_title": "UPSC: Civil Services Examination 2026 notice; sizes from Vision IAS and Vajiram & Ravi",
       "source_url": "https://www.upsc.gov.in/sites/default/files/Notif-CSP-2026-Engl-060226Rev.pdf",
+      "exam_site": {
+        "name": "UPSC: Civil Services",
+        "url": "https://upsc.gov.in/"
+      },
       "notice_date": "2026-02-04",
       "excerpts": [
         {
@@ -997,6 +1131,10 @@
       "title": "UPSC CSE 2026 — signature (three times)",
       "source_title": "UPSC: Civil Services Examination 2026 notice; sizes from Vision IAS and Vajiram & Ravi",
       "source_url": "https://www.upsc.gov.in/sites/default/files/Notif-CSP-2026-Engl-060226Rev.pdf",
+      "exam_site": {
+        "name": "UPSC: Civil Services",
+        "url": "https://upsc.gov.in/"
+      },
       "notice_date": "2026-02-04",
       "excerpts": [
         {
