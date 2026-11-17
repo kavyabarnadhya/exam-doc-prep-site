@@ -1,8 +1,92 @@
 {
   "schema": 1,
-  "version": 7,
+  "version": 8,
   "published": "2026-11-17",
   "rules": [
+    {
+      "id": "ctet_2026_09_photo",
+      "status": "current",
+      "cycle": "September 2026",
+      "document": "photo",
+      "title": "CTET September 2026 — photo",
+      "source_title": "CBSE: CTET September 2026 Information Bulletin",
+      "source_url": "https://cdnbbsr.s3waas.gov.in/s3443dec3062d0286986e21dc0631734c9/uploads/2026/05/202605111250310617.pdf",
+      "exam_site": {
+        "name": "CBSE: CTET",
+        "url": "https://ctet.nic.in/"
+      },
+      "notice_date": "2026-05-11",
+      "excerpts": [
+        {
+          "where": "PDF page 3, Step 4 (same text on page 27)",
+          "text": "Upload scanned photograph and signature in JPG/JPEG format. [...] Size of scanned photograph should be between 10 to 100 KB [...] Image Dimension of photograph should be 3.5 cm (width) x 4.5 cm (height)."
+        }
+      ],
+      "requirement": {
+        "label": "ctet_2026_09_photo",
+        "kb_min": 10,
+        "kb_max": 100,
+        "width": null,
+        "height": null,
+        "aspect": {
+          "w": 7,
+          "h": 9
+        },
+        "format": "jpeg"
+      },
+      "derived": {
+        "aspect": "7:9 is derived from \"3.5 cm (width) x 4.5 cm (height)\"."
+      },
+      "unresolved": {
+        "width": "The bulletin gives centimetres only, with no DPI, so there is no pixel size to check.",
+        "height": "The bulletin gives centimetres only, with no DPI, so there is no pixel size to check."
+      },
+      "notes": [
+        "CTET September 2026: online applications 11.05.2026 to 10.06.2026."
+      ]
+    },
+    {
+      "id": "ctet_2026_09_signature",
+      "status": "current",
+      "cycle": "September 2026",
+      "document": "signature",
+      "title": "CTET September 2026 — signature",
+      "source_title": "CBSE: CTET September 2026 Information Bulletin",
+      "source_url": "https://cdnbbsr.s3waas.gov.in/s3443dec3062d0286986e21dc0631734c9/uploads/2026/05/202605111250310617.pdf",
+      "exam_site": {
+        "name": "CBSE: CTET",
+        "url": "https://ctet.nic.in/"
+      },
+      "notice_date": "2026-05-11",
+      "excerpts": [
+        {
+          "where": "PDF page 3, Step 4 (same text on page 27)",
+          "text": "Upload scanned photograph and signature in JPG/JPEG format. [...] Size of scanned signature should be between 3 KB to 30 KB. [...] Image Dimension of signature should be 3.5 cm (length) x 1.5 cm (height)."
+        }
+      ],
+      "requirement": {
+        "label": "ctet_2026_09_signature",
+        "kb_min": 3,
+        "kb_max": 30,
+        "width": null,
+        "height": null,
+        "aspect": {
+          "w": 7,
+          "h": 3
+        },
+        "format": "jpeg"
+      },
+      "derived": {
+        "aspect": "7:3 is derived from \"3.5 cm (length) x 1.5 cm (height)\"."
+      },
+      "unresolved": {
+        "width": "The bulletin gives centimetres only, with no DPI, so there is no pixel size to check.",
+        "height": "The bulletin gives centimetres only, with no DPI, so there is no pixel size to check."
+      },
+      "notes": [
+        "CTET September 2026: online applications 11.05.2026 to 10.06.2026."
+      ]
+    },
     {
       "id": "cuet_ug_2026_id_proof",
       "status": "current",
